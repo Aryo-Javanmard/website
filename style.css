@@ -1,1 +1,169 @@
 
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Consolas", "Courier New", monospace;
+	font-size: 16px;
+	line-height: 1.5;
+    color: rgb#333;
+    background-color: rgb(248, 244, 229);
+}
+
+/* Header styles */
+header {
+	background-color: rgb(248, 244, 229);
+	color: rgb#333;
+	padding: 20px;
+    font-size: 36px;
+}
+nav {
+    float: right;
+    font-size: 16px;
+  }
+nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: rgb(213, 208, 188);
+    color: rgb#333;
+  }
+
+/* Main content styles */
+main {
+	margin: 20px;
+  display: flex; /* Add a flex display to main */
+  flex-wrap: wrap; /* Enable wrapping */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+about {
+    float: left;
+    background-color: rgb(248, 244, 229);
+}
+about ul {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  about li {
+    display: inline-block;
+
+  }
+  
+  about a {
+    display: block;
+    
+    padding: 10px;
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+
+maintxt {
+    background-color: rgb(248, 244, 229);
+    flex: 1; /* Take up remaining space */
+    padding: 20px; /* Add some padding */
+}
+maintxt ul {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  maintxt li {
+    display: inline-block;
+
+  }
+  
+  maintxt a {
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  photo {
+    background-color: rgb(248, 244, 229);
+    float: right;
+    margin-left: 20px; /* Add some margin */
+}
+  photo ul {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  photo li {
+    display: inline-block;
+
+  }
+  
+  photo a {
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  main2 {
+    margin: 20px;
+    display: flex; /* Add a flex display to main */
+    flex-wrap: wrap; /* Enable wrapping */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+  main3 {
+    margin: 20px;
+    display: flex; /* Add a flex display to main */
+    flex-wrap: wrap; /* Enable wrapping */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+  project {
+    float: left;
+    background-color: rgb(248, 244, 229);
+    display: block;
+    
+    padding: 10px;
+    font-size: 28px;
+    text-decoration: none;
+}
+contact {
+  float: center;
+  background-color: rgb(248, 244, 229);
+  display: block;
+  
+  padding: 10px;
+  font-size: 28px;
+  text-decoration: none;
+}
+contact ul {
+  margin: 0;
+  padding: 0;
+  float: center;
+  
+  font-size: 18px;
+  text-decoration: none;
+
+}
+/* Footer styles */
+footer {
+	background-color: rgb(248, 244, 229);
+	color: rgb#333;
+	padding: 20px;
+	text-align: center;
+}
